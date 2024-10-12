@@ -1,0 +1,168 @@
+{
+  "roomTypes": [
+    { "id": 1, "Name": "DELUXE" },
+    { "id": 2, "Name": "STANDARD" },
+    { "id": 3, "Name": "VIP" },
+    { "id": 4, "Name": "SUPERIOR" }
+  ],
+  "roomStatus": [
+    { "id": 1, "Name": "Available" },
+    { "id": 2, "Name": "Booked" },
+    { "id": 3, "Name": "Out of service" }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "RoomNumber": "101",
+      "Floor": 1,
+      "Price": 500000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường có điều hòa",
+      "RoomTypeID": 1,
+      "RoomStatusID": 1
+    },
+    {
+      "id": 2,
+      "RoomNumber": "102",
+      "Floor": 1,
+      "Price": 400000,
+      "BedsNumber": 1,
+      "HasAirCondition": false,
+      "Description": "Phòng 1 giường, không điều hòa",
+      "RoomTypeID": 2,
+      "RoomStatusID": 2
+    },
+    {
+      "id": 3,
+      "RoomNumber": "201",
+      "Floor": 2,
+      "Price": 600000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường, có điều hòa và ban công",
+      "RoomTypeID": 3,
+      "RoomStatusID": 1
+    },
+    {
+      "id": 4,
+      "RoomNumber": "202",
+      "Floor": 2,
+      "Price": 600000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường, có điều hòa và ban công",
+      "RoomTypeID": 3,
+      "RoomStatusID": 1
+    },
+    {
+      "id": 5,
+      "RoomNumber": "203",
+      "Floor": 2,
+      "Price": 600000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường, có điều hòa và ban công",
+      "RoomTypeID": 3,
+      "RoomStatusID": 1
+    },
+    {
+      "id": 6,
+      "RoomNumber": "204",
+      "Floor": 2,
+      "Price": 700000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường, có điều hòa và ban công",
+      "RoomTypeID": 3,
+      "RoomStatusID": 1
+    },
+    {
+      "id": 7,
+      "RoomNumber": "205",
+      "Floor": 2,
+      "Price": 900000,
+      "BedsNumber": 2,
+      "HasAirCondition": true,
+      "Description": "Phòng 2 giường, có điều hòa và ban công",
+      "RoomTypeID": 3,
+      "RoomStatusID": 1
+    }
+  ],
+  "roomImages": [
+    { "id": 1, "URL": "https://images.squarespace-cdn.com/content/v1/5aadf482aa49a1d810879b88/1626698584182-YPDVH4ZANFBZSEPY7AEM/2.jpg", "RoomID": 1 },
+    { "id": 2, "URL": "https://tubepfurniture.com/wp-content/uploads/2020/09/phong-mau-khach-san-go-cong-nghiep-01.jpg", "RoomID": 2 },
+    { "id": 3, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 3 },
+    { "id": 4, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 4 },
+    { "id": 5, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 5 },
+    { "id": 6, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 6 },
+    { "id": 7, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 7 },
+    { "id": 8, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 1 },
+    { "id": 9, "URL": "https://kenhhomestay.com/wp-content/uploads/2021/02/khach-san-tinh-yeu-ha-noi-9.jpg", "RoomID": 1 }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "Name": "Nguyễn Văn A",
+      "BirthDay": "1990-01-01",
+      "Phone": "0909123456",
+      "Address": "123 Đường ABC, Quận 1, TP.HCM",
+      "IdentificationNumber": "0123456789"
+    },
+    {
+      "id": 2,
+      "Name": "Trần Thị B",
+      "BirthDay": "1985-05-05",
+      "Phone": "0987654321",
+      "Address": "456 Đường XYZ, Quận 3, TP.HCM",
+      "IdentificationNumber": "9876543210"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "CheckInDate": "2024-09-10",
+      "CheckOutDate": "2024-09-12",
+      "TotalAmount": 1000000,
+      "CustomerID": 1,
+      "RoomID": 1,
+      "BookingStatusID": 1
+    },
+    {
+      "id": 2,
+      "CheckInDate": "2024-09-15",
+      "CheckOutDate": "2024-09-17",
+      "TotalAmount": 800000,
+      "CustomerID": 2,
+      "RoomID": 2,
+      "BookingStatusID": 2
+    }
+  ],
+  "bookingStatus": [
+    { "id": 1, "Name": "Pending" },
+    { "id": 2, "Name": "Confirmed" },
+    { "id": 3, "Name": "Cancelled" }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "UserName": "nguyenvana",
+      "Password": "password123",
+      "IsActive": true,
+      "CustomerID": 1,
+      "RoleID": 1
+    },
+    {
+      "id": 2,
+      "UserName": "tranthib",
+      "Password": "securepass",
+      "IsActive": true,
+      "CustomerID": 2,
+      "RoleID": 2
+    }
+  ],
+  "roles": [
+    { "id": 1, "Name": "Admin" },
+    { "id": 2, "Name": "Customer" }
+  ]
+}

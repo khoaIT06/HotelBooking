@@ -1,0 +1,34 @@
+.sidebar {
+    width: 280px;
+    background-color: #007bff;
+
+    .nav-link {
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        display: block;
+        transition: all 0.3s ease;
+        
+        &.active {
+            background-color: #ffffff;
+            color: #007bff;
+            border: 2px solid #ffffff;
+        }
+
+        &:hover {
+            background-color: #ffffff;
+            color: #007bff;
+        }
+    }
+
+    @media (max-width: 768px) {
+        position: absolute;
+        left: -360px;
+        transition: left 0.3s ease-in-out;
+
+        &.active {
+            left: 0;
+        }
+    }
+}

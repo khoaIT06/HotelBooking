@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+  color: #ffffff !important;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: #3a3f47;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.login-link {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.nav-item .active {
+  font-weight: bold;
+}
+
+.username-link{
+  text-decoration: none;
+}
